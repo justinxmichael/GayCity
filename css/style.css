@@ -1,0 +1,20 @@
+div {
+    display: flex;
+  }
+  
+  div > div {
+    border: 1px solid black;
+    height:400px;
+    flex-grow: 1;
+    transition: all .5s;
+  }
+  
+  div > div:hover {
+    background-color: gray;
+    flex-grow: 8;
+  }
+  
+  .FirstCard {
+    background-color: red;
+    
+  }
