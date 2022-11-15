@@ -1,20 +1,180 @@
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  li {
+    float: center;
+    width: 200px;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 50px 40px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .donatebutton {
+      border: none;
+      color: white;
+      background-color: #9747FF;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin: 50px 300px;
+      cursor: pointer;
+      border-radius: 11px;
+      width: 213px;
+      float: right;
+      position: absolute;
+  }
+
+  .donatebutton:hover {
+      background-color: yellow;
+      color: black;
+  }
+
+
+
 div {
     display: flex;
   }
   
   div > div {
     border: 1px solid black;
-    height:400px;
+    height:800px;
     flex-grow: 1;
-    transition: all .5s;
+    transition: all .9s;
   }
   
   div > div:hover {
-    background-color: gray;
+    /*background-color: gray;*/
     flex-grow: 8;
   }
   
-  .FirstCard {
-    background-color: red;
-    
+  h1, h2 {
+      font-family: 'Kavoon';
+      color: white;
+      font-size: 64px;
+      text-align: center;
+
   }
+  body {
+      background-image: url(../../images/gaycitybackground.png);
+      background-color: #1E1E1E;
+  }
+  .FirstCard {
+    background-image: linear-gradient(#F30074, #FFA4CF);
+    color: white;
+    font-family:'Kavoon', sans-serif;
+    font-size: 50px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+    border-radius: 40px;
+    }
+
+.SecondCard {
+    background-image: linear-gradient(#009EF8, #54E2FF);
+    color: white;
+    font-family: 'Kavoon';
+    font-size: 50px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+    border-radius: 40px;
+    }
+
+.ThirdCard {
+    background-image: linear-gradient(#FF8F28, #FDE6BA);
+    color:white;
+    font-family: 'Kavoon';
+    font-size: 50px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+    border-radius: 40px;
+}
+
+.FourthCard {
+    background-image: linear-gradient(#00AC07, #B9FFDA);
+    color:white;
+    font-family: 'Kavoon';
+    font-size: 50px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+    border-radius: 40px;
+}
+
+.FifthCard {
+    background-image: linear-gradient(#9378FF, #EEEAFF);
+    color:white;
+    font-family: 'Kavoon';
+    font-size: 50px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+    border-radius: 40px;
+}
+
+p {
+    font-family: 'Kavoon', sans-serif;
+    color: white;
+    font-size: 38px;
+    text-align: center;
+}
+
+footer {
+    display:block;
+    position:static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
