@@ -1,3 +1,11 @@
+
+#HeaderImage {
+  position: center;
+  width: 100%;
+  height: 400px;
+
+}
+
 ul {
   width: 100%;
   list-style-type: none;
@@ -5,6 +13,7 @@ ul {
   padding: 0;
   overflow: auto;
   background-color: black;
+  height: 50%;
 }
 
 li {
@@ -16,7 +25,7 @@ li a {
   color: white;
   text-align: center;
   padding: 14px 16px;
-  width: 12%;
+  width: 11%;
   font-family: 'Inter';
   text-decoration: none;
 }
@@ -34,9 +43,7 @@ li a:hover {
   z-index: 1;
 }
 
-.dropdown:hover .dropdown-content {
-  display:
-}
+
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -49,10 +56,10 @@ button {
   background-color: #9378FF;
   padding: 15px 32px;
   font-size: 20px;
-  width: 300px;
+  width: 230px;
   border-radius: 15px;
-  position: fixed;
   margin: 50px;
+  position: inline;
 }
 
 button:hover {
@@ -84,99 +91,110 @@ div {
 
   }
   body {
-      background-image: url(../../images/gaycitybackground.png);
+      background-image: url("../images/rainbowbackground.png");
       background-color: #1E1E1E;
+      background-position: fixed;
   }
   .FirstCard {
-    background-image: linear-gradient(#F30074, #FFA4CF);
-    color: white;
-    font-family:'Kavoon', sans-serif;
+    background-color:#3C1D2B;
+    color: #B63C76;
+    font-family:'Montserrat';
     font-size: 50px;
     display: inline-block;
     text-align: center;
-    vertical-align: center;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
     border-radius: 40px;
+    border-width: 2mm;
+    border-color: #D71470;
     }
 
 .SecondCard {
-    background-image: linear-gradient(#009EF8, #54E2FF);
-    color: white;
-    font-family: 'Kavoon';
+    background-color: #193424;
+    color: #03963D;
+    font-family: 'Montserrat';
     font-size: 50px;
     display: inline-block;
     text-align: center;
     vertical-align: center;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
     border-radius: 40px;
+    border-width: 2mm;
+    border-color: #06C324;
     }
 
 .ThirdCard {
-    background-image: linear-gradient(#FF8F28, #FDE6BA);
-    color:white;
-    font-family: 'Kavoon';
+    background-color: #2C3644;
+    color:#92D0F5;
+    font-family: 'Montserrat';
     font-size: 50px;
     display: inline-block;
     text-align: center;
     vertical-align: center;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
     border-radius: 40px;
+    border-width: 2mm;
+    border-color: #0057BA;
 }
 
 .FourthCard {
-    background-image: linear-gradient(#00AC07, #B9FFDA);
-    color:white;
-    font-family: 'Kavoon';
+    background-color: #462522;
+    color:#DE5242;
+    font-family: 'Montserrat';
     font-size: 50px;
     display: inline-block;
     text-align: center;
     vertical-align: center;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
     border-radius: 40px;
+    border-width: 2mm;
+    border-color: #DE5242;
 }
 
 .FifthCard {
-    background-image: linear-gradient(#9378FF, #EEEAFF);
-    color:white;
-    font-family: 'Kavoon';
+    background-color: #442653;
+    color:#D877FD;
+    font-family: 'Montserrat';
     font-size: 50px;
     display: inline-block;
     text-align: center;
     vertical-align: center;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
     border-radius: 40px;
+    border-width: 2mm;
+    border-color: #D877FD;
 }
 
 p {
-    font-family: 'Kavoon', sans-serif;
+    font-family: 'Montserrat';
     color: white;
     font-size: 38px;
-    text-align: center;
+}
+
+.FooterText {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Montserrat';
 }
 
 footer {
-    display:block;
     position:static;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: black;
     color: white;
-    text-align: center;
 }
 
-h3 {
-  font-family: 'Kavoon';
-  font-size: 50px;
-}
-
-h4 {
-  font-family: 'Inter';
-  font-size: 30px;
-  text-align: center;
-}
-
-p1 {
-  font-family: 'Inter';
-  font-size: 16px;
-  text-align: center;
-}
-
-h5 {
-  font-family: 'Inter';
+.column {
+  float: center;
+  padding: 10px;
+  height: 100px;
 }
